@@ -76,10 +76,10 @@
 							</br><a style="color:green;" href="#26jan2">26 janvier (Jeffrey)</a>
 							</br><a style="color:green;" href="#28jan1">28 janvier (Francis)</a>
 							</br><a style="color:green;" href="#28jan2">28 janvier (Jeffrey)</a>
-							</br><a style="color:green;" href="#03fev1">3 février (Jeffrey)</a>
-							</br><a style="color:green;" href="#03fev2">3 février (Francis)</a>
-							</br><a style="color:green;" href="#09fev1">9 février (Jeffrey)</a>
-							</br><a style="color:green;" href="#09fev2">9 février (Francis)</a>
+							</br><a style="color:green;" href="#03fev1">03 février (Jeffrey)</a>
+							</br><a style="color:green;" href="#03fev2">03 février (Francis)</a>
+							</br><a style="color:green;" href="#09fev1">09 février (Jeffrey)</a>
+							</br><a style="color:green;" href="#09fev2">09 février (Francis)</a>
 							</br><a style="color:green;" href="#10fev1">10 février (Jeffrey)</a>
 							</br><a style="color:green;" href="#10fev2">10 février (Francis)</a>
 						</div>					
@@ -122,18 +122,24 @@
 				<h2 class="text-center features-text">25 janvier</h2>
 				<h5 class="text-center features-text">Par Jeffrey</h5>
 				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
-					<div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box">
-                    	</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
+                    	</br><h4>Absence de Francis</h4>
+						<p>L’absence inattendue de Francis ce matin risque de retarder un peu l’avancement du prototype au niveau Oculus, puisqu’il est disparu avec le Samsung Gear VR. Cependant, de mon côté je peux tout de même d’avancer avec le Cardboard afin d’avoir un prototype plus ou moins terminé d’ici la fin de la journée. La transposition avec la technologie Oculus devrait assez bien se faire avec Unity.</p>
+						<p>Update de 11h00: Francis est arrivé, Oculus pourra être testé aujourd’hui si tout se passe bien.</p>
+						<img src="images/billets/25jan1.jpg" style="width:900px;height:700px;">
 						
-						</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
+						</br><h4>Tests avec le contrôleur Bluetooth Ipega</h4>
+						<p>Ce matin, j’ai enfin pu utiliser le contrôleur Bluetooth Ipega qui traine sur mon bureau depuis une semaine. Comme toujours, Unity s’occupe très bien de rendre la technologie accessible, puisqu’au niveau développement le fonctionnement est le même qu’avec un contrôleur d’Xbox 360, ce que nous avons amplement utilisé la session dernière.</p>
+						<img src="images/billets/25jan2.jpg" style="width:900px;height:700px;">
+						</br></br><p>L’acquisition de ce contrôleur permettra une plus grande diversité au niveau du prototype, puisque le Cardboard est muni d’un seul bouton, ce qui limite énormément les interactions possibles.</p>
+						
+						</br><h4>Avancement du premier prototype Cardboard</h4>
+						<p>Maintenant que les contrôles sont implémentés, le développement du prototype peut continuer. La caméra peut se déplacer à l’aide du joystick, légèrement similaire au déplacement d’un vaisseau spatial. Il est également possible d’ajuster la vitesse de déplacer, et d’utiliser le menu directement à l’aide de la manette.</p>
+						<p>Avec ces changements, l’application n’est maintenant plus dépendante de l’aimant du Cardboard, ce qui la rend utilisable avec d’autres casques de VR ne le possédant pas. Cependant, l’utilisation d’un contrôleur Bluetooth est maintenant nécessaire.</p>
+						<img src="images/billets/25jan3.jpg" style="width:900px;height:550px;">
+						
+						</br><h4>Tentative de premier prototype avec Oculus</h4>
+						<p>Le déploiement d’un projet sur le téléphone est plus ardue qu’avec le Cardboard, ce qui retarde encore plus le premier prototype. L’essai du prototype sera donc remis à demain.</p>
 					</div>
 				</div>		
 			</div>
@@ -141,23 +147,234 @@
 	</div>
 </div>
 
-<div class="container-fluid features" id="22jan1">
+<div class="container-fluid features" id="26jan1">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="text-center features-text">22 janvier</h2>
+				<h2 class="text-center features-text">26 janvier</h2>
+				<h5 class="text-center features-text">Par Francis</h5>
+				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
+                    	</br><h4>Configuration de l’environnement de travail pour le développement Oculus</h4>
+						<p>Configurer mon environnement de travail pour le développement avec Oculus s’est avéré plus long que prévu. Il y avait plus de prérequis à installer que j’avais estimé. En plus de Unity et du Android SDK et des tools allant avec, il faut installer le SDK oculus et le SDK Java. Il a aussi fallu configurer mon téléphone en mode développeur et donner accès à mon ordinateur d’y déployer mes applications de test. Il a aussi fallu que je télécharges le pilote USB de mon téléphone sur le site de Samsung sans quoi mon téléphone n’étais pas reconnu adéquatement.</p>
+						<p>Finalement, pour que les applications de test puissent s’éxécuter sur mon téléphone, il faut un fichier de signature oculus dans l’application. J’ai généré ce fichier à l’aide de l’identifiant de mon téléphone et de la section dévelopeur du site web de Oculus. Maintenant que l’environnement est en place, j’essaie de développer une application de base pour tester tout ça!</p>
+						<img src="images/billets/26jan1.png" style="width:900px;height:550px;">
+						
+						</br><h4>Premier test de projet Oculus</h4>
+						<p>Pour tester les applications Oculus, j’y vais avec le classique Hello World. Encore une fois ça s’est avéré un peu plus long que prévu. Contrairement à lorsqu’on développe sur windows, il faut compiler une nouvelle version du jeu à chaque fois que l’on veut le tester et le déployer sur un téléphone android. Je suis venu à bout de ce prototype, j’y ai fait une scène de base à 360 degrés montrant un hello world. L’utilisateur est ensuite redirigé au bout de 5 secondes à une scène grise avec trois boutons que je pourrais me servir pour approfondir le prototype par la suite.</p>
+						<img src="images/billets/26jan2.jpg" style="width:900px;height:700px;">
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid work" id="26jan2" style="padding-top:50px;padding-bottom:60px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center features-text">26 janvier</h2>
+				<h5 class="text-center features-text">Par Jeffrey</h5>
+				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
+                    	</br><h4>Finalisation du premier prototype</h4>
+						<p>J’ai passé la première heure à finaliser le premier prototype afin de bien me familiariser avec la technologie. Il est maintenant possible de se déplacer librement avec un contrôleur Bluetooth et d’intéragir avec un objet se téléportant. Le tout se retrouve maintenant à l’intérieur d’un cube, afin de ne pas pouvoir quitter les limites de la scène.</p>
+						
+						</br><h4>Début de la recherche théorique</h4>
+						<p>Maintenant que nous avons un prototype Cardboard plus ou moins terminé, nous pouvons commencer nos recherches plus théoriques et les tester parallèlement. J’ai donc débuté par la base, la vision binoculaire, la stéréoscopie et la parallaxe. Puisque le casque VR simule une profondeur artificielle, il est important de comprendre comment la profondeur est perçue par un oeil humain. Demain, je m’attaquerai au reste de cette recherche, et j'essayerai de parler du fonctionnement des caméras 3D.</p>
+						<img src="images/billets/26jan3.jpg" style="width:750px;height:700px;">
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid features" id="28jan1">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center features-text">28 janvier</h2>
+				<h5 class="text-center features-text">Par Francis</h5>
+				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
+                    	</br><h4>Test d’occlusion avec le Samsung Gear VR</h4>
+						<p>Aujourd’hui j’ai commencé à tester et approfondir le prototype de Oculus avec le Samsung Gear VR. J’ai conçu un script et placé un cube dans l’environnement 3D réalisé dans les derniers jours afin de voir quels sont les différences entre la caméra pour chaque yeux.</p>
+						<p>De plus, mon script fait en sorte que l’on peut déplacer le cube dans l’espace 3D en se servant du trackpad situé sur le côté du Gear VR. Le trackpad est détecté comme une souris par Unity, le rendant donc très facile à utiliser.</p>
+						<img src="images/billets/28jan1.png" style="width:900px;height:550px;">
+						
+						</br><h4>Début des recherches sur la technologies Android</h4>
+						<p>J’ai aussi commencé à effectuer la recherche théorique sur les différents composants de la technologie Android, plus spécifiquement les senseurs.</p>
+
+						</br><h4>Début du prototype permettant de se déplacer</h4>
+						<p>J’ai finalement trouvé des assets graphiques gratuits sur le unity store afin de commencer à constituer la scène pour faire le prototype de jeu déplacement dans l’environnement 3D.</p>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid work" id="28jan2" style="padding-top:50px;padding-bottom:60px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center features-text">28 janvier</h2>
+				<h5 class="text-center features-text">Par Jeffrey</h5>
+				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
+                    	</br><h4>Un autre nouveau jouet</h4>
+						<p>Et oui, ça ne s’arrête jamais, j’étais envieux du Samsung Gear VR de Francis et je devais m’équipper moi aussi. C’est donc avec un très grand plaisir que j’ai testé le VR Shinecon aujourd’hui. Avec des lentilles adjustables, il est très aisé d’obtenir une image claire et de qualité. Ce casque utilise toujours la technologie Cardboard, ce qui n'affecte en rien l’était du prototype déjà créé.</p>
+						<img src="images/billets/28jan2.jpg" style="width:900px;height:550px;">
+						
+						</br><h4>Continuation de la recherche théorique</h4>
+						<p>J’ai continué et, je l’espère, terminé la théorique sur la vision binoculaire. J’ai également commencé mes recherches sur les caméras derrière la VR et la 3D en général. Il faut dire que mes recherches avancent moins vite que prévu, car il s’agit de matière très technique qui, souvent, dépasse amplement mes connaissances. La recherche d’un sujet dérape donc rapidement en une recherche sur cinq sujets connexes. Je suis tout de même confiant en ce qui concerne la partie théorique de ce travail.</p>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid features" id="03fev1">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center features-text">03 février</h2>
+				<h5 class="text-center features-text">Par Jeffrey</h5>
+				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
+                    	</br><h4>La VR et le marché du jeu</h4>
+						<p>J’ai commencé et terminé le volet théorique sur le marché du jeu vidéo. J’y ai inscris mes craintes et les défis que devra relever la réalitée virtuelle si elle désire un jour devenir la norme en matière de jeux vidéo, ce qui est très peu probable. J’ai inspiré cette analyse de mes expériences personnelles, mais également de prédicitions que j’ai pu observer sur le net.</p>
+						<img src="images/billets/03fev1.jpg" style="width:900px;height:550px;">
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid work" id="03fev2" style="padding-top:50px;padding-bottom:60px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center features-text">03 février</h2>
+				<h5 class="text-center features-text">Par Francis</h5>
+				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
+                    	</br><h4>On continue avec le prototype Oculus</h4>
+						<p>Après une autre avant-midi de travail sur le prototype Oculus, nous pouvons maintenant nous déplacer dans un environnement 3D en se servant de l’accéléromètre du téléphone android.</p>
+						<p>Nous sommes en mesure d’avancer, de reculer, et de se déplacer latéralement en penchant la tête dans la diction voulue. Il va maintenant rester à rendre le processus relatif à la direction vers laquelle on peut regarder avec le VR.</p>
+						<img src="images/billets/03fev2.jpg" style="width:900px;height:650px;">
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid features" id="09fev1">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center features-text">09 février</h2>
+				<h5 class="text-center features-text">Par Jeffrey</h5>
+				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
+                    	</br><h4>Finalisation des prototypes</h4>
+						<p>Après plusieurs heures de travail, il y a trois prototypes que je considère présentables. Le premier consiste à se déplacer dans une pièce à l’aide de la manette et de chasser des cubes. Le deuxième est simplement une promenade dans une forêt, il aide à tester l’occlusion et la perspective avec un VR. Le troisième est un simulateur de chute libre pour voir à quel point notre corps et nos sens sont affectés lors d’une simulation seulement visuelle.</p>
+						<img src="images/billets/09fev1.png" style="width:900px;height:550px;">
+						
+						</br><h4>Et la paperasse continue!</h4>
+						<p>Inévitablement, j’ai aussi commencé à travailler sur notre site web, car il doit être mi à jour très bientôt, et nous avons beaucoup de choses à dire en très peu de temps. Une correction de la proposition de recherche est également de mise, ce qui ne fait qu’en ajouter à la pile de paperasse déjà très haute. On se relève les manches et on passe à l’action.</p>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid work" id="09fev2" style="padding-top:50px;padding-bottom:60px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center features-text">09 février</h2>
+				<h5 class="text-center features-text">Par Francis</h5>
+				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
+                    	</br><h4>Suite du développement du prototype Oculus</h4>
+						<p>J’ai continué de développer le prototype Oculus. Suite au développement d’aujourd’hui l’utilisateur de l’application peut maintenant se déplacer dans la direction ou la caméra pointe. J’ai du retomber dans les vecteur pour y arriver. Le bout de code que j’ai conçu calcule l’angle entre le vecteur de référence ‘’forward’’ et le vecteur par lequel regarde ma caméra. Je vais ensuite prendre les valeurs en x et en z du vecteur d’accélération du téléphone pour construire mon vecteur de translation et l’appliquer à mon objet de caméra. Toutefois je rencontre encore un pépin majeur.</p>
+						
+						</br><h4>Quelques petits ennuis...</h4>
+						<p>J’ai des ennuis avec l’algorithme de déplacement du joueur. Quand je veut aller vers la gauche à partir du point de départ, où les coordonnées en X deviennent négatives, tout les déplacement deviennent inversés. Je vais tenter de régler ça demain.</p>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid features" id="10fev1">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center features-text">10 février</h2>
+				<h5 class="text-center features-text">Par Jeffrey</h5>
+				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
+                    	</br><h4>Travail sur les outils d’expérimentation</h4>
+						<p>J’ai travaillé, encore une fois, sur le site web à remettre ce dimanche. Le document est bien avancé, il ne restera qu’à le terminer, à le corriger et à le mettre sur le site web.</p>
+			
+						</br><h4>Aider Francis</h4>
+						<p>Francis avait des problèmes avec le déplacement dans sa scène du aux vecteurs directions et aux angles entre eux. J’ai essayé de l’aider du mieux de mes connaissances et avec un algorithmes similaire que j’ai fait durant le projet synthèse, mais rien n’a fonctionné. Au final, c’est Pierre qui nous a aidé à trouver la solution. Pour plus de détails sur le problème, voir le post de Francis.</p>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid work" id="10fev2" style="padding-top:50px;padding-bottom:60px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center features-text">10 février</h2>
+				<h5 class="text-center features-text">Par Francis</h5>
+				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
+                    	</br><h4>Finalisation du prototype Oculus</h4>
+						<p>Je suis finalement parvenu à régler mon problème avec l’algorithme de déplacement. Le problème était avec mon calcul d’angle. Étant donné que la fonction Vector3.Angle de unity retournes toujours le plus petit angle entre deux vecteurs sous forme de valeur positive, il me faut trouver une façon de déterminer dans quel cadran se retrouve le vecteur forward de ma caméra.</p>
+						<img src="images/billets/10fev1.png" style="width:900px;height:550px;">
+						
+						</br><h4>Solution au problème de cadrans</h4>
+						<p>Avec l’aide de Pierre, je suis finalement venu à bout de ce problème. J’ai finalement fait un produit vectoriel entre  le vecteur de référence ‘’forward’’ et le vecteur par lequel regarde ma caméra. Si la coordonné en Y du vecteur résultant est plus grande que zéro, ça veut donc dire que l’angle doit être négatif lors du calcul suivant. Il ne restera plus qu’a peaufiner l’environnement 3D du prototype.</p>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid features" id="03fev1">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center features-text">03 février</h2>
 				<h5 class="text-center features-text">Par Jeffrey</h5>
 				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
 					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
                     	</br><h4>Titre</h4>
 						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
+						<p>texte</p>
+						<img src="images/billets/03fev1.jpg" style="width:900px;height:700px;">
 						</br></br><p>texte</p>
 						<p>texte</p>
 						
 						</br><h4>Titre</h4>
 						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
+						<p>texte</p>
+						<img src="images/billets/03fev3.jpg" style="width:900px;height:700px;">
 						</br></br><p>texte</p>
 						<p>texte</p>
 					</div>
@@ -167,23 +384,25 @@
 	</div>
 </div>
 
-<div class="container-fluid work" id="25jan1" style="padding-top:50px;padding-bottom:60px;">
+<div class="container-fluid work" id="03fev2" style="padding-top:50px;padding-bottom:60px;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="text-center features-text">25 janvier</h2>
-				<h5 class="text-center features-text">Par Jeffrey</h5>
+				<h2 class="text-center features-text">03 février</h2>
+				<h5 class="text-center features-text">Par Francis</h5>
 				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
-					<div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
                     	</br><h4>Titre</h4>
 						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
+						<p>texte</p>
+						<img src="images/billets/03fev1.jpg" style="width:900px;height:700px;">
 						</br></br><p>texte</p>
 						<p>texte</p>
 						
 						</br><h4>Titre</h4>
 						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
+						<p>texte</p>
+						<img src="images/billets/03fev3.jpg" style="width:900px;height:700px;">
 						</br></br><p>texte</p>
 						<p>texte</p>
 					</div>
@@ -193,23 +412,25 @@
 	</div>
 </div>
 
-<div class="container-fluid features" id="22jan1">
+<div class="container-fluid features" id="03fev1">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="text-center features-text">22 janvier</h2>
+				<h2 class="text-center features-text">03 février</h2>
 				<h5 class="text-center features-text">Par Jeffrey</h5>
 				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
 					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
                     	</br><h4>Titre</h4>
 						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
+						<p>texte</p>
+						<img src="images/billets/03fev1.jpg" style="width:900px;height:700px;">
 						</br></br><p>texte</p>
 						<p>texte</p>
 						
 						</br><h4>Titre</h4>
 						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
+						<p>texte</p>
+						<img src="images/billets/03fev3.jpg" style="width:900px;height:700px;">
 						</br></br><p>texte</p>
 						<p>texte</p>
 					</div>
@@ -219,231 +440,25 @@
 	</div>
 </div>
 
-<div class="container-fluid work" id="25jan1" style="padding-top:50px;padding-bottom:60px;">
+<div class="container-fluid work" id="03fev2" style="padding-top:50px;padding-bottom:60px;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="text-center features-text">25 janvier</h2>
-				<h5 class="text-center features-text">Par Jeffrey</h5>
-				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
-					<div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box">
-                    	</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-						
-						</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-					</div>
-				</div>		
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid features" id="22jan1">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center features-text">22 janvier</h2>
-				<h5 class="text-center features-text">Par Jeffrey</h5>
+				<h2 class="text-center features-text">03 février</h2>
+				<h5 class="text-center features-text">Par Francis</h5>
 				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
 					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
                     	</br><h4>Titre</h4>
 						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
+						<p>texte</p>
+						<img src="images/billets/03fev1.jpg" style="width:900px;height:700px;">
 						</br></br><p>texte</p>
 						<p>texte</p>
 						
 						</br><h4>Titre</h4>
 						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
 						<p>texte</p>
-					</div>
-				</div>			
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid work" id="25jan1" style="padding-top:50px;padding-bottom:60px;">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center features-text">25 janvier</h2>
-				<h5 class="text-center features-text">Par Jeffrey</h5>
-				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
-					<div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box">
-                    	</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-						
-						</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-					</div>
-				</div>		
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid features" id="22jan1">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center features-text">22 janvier</h2>
-				<h5 class="text-center features-text">Par Jeffrey</h5>
-				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
-					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
-                    	</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-						
-						</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-					</div>
-				</div>			
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid work" id="25jan1" style="padding-top:50px;padding-bottom:60px;">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center features-text">25 janvier</h2>
-				<h5 class="text-center features-text">Par Jeffrey</h5>
-				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
-					<div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box">
-                    	</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-						
-						</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-					</div>
-				</div>		
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid features" id="22jan1">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center features-text">22 janvier</h2>
-				<h5 class="text-center features-text">Par Jeffrey</h5>
-				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
-					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
-                    	</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-						
-						</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-					</div>
-				</div>			
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid work" id="25jan1" style="padding-top:50px;padding-bottom:60px;">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center features-text">25 janvier</h2>
-				<h5 class="text-center features-text">Par Jeffrey</h5>
-				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
-					<div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box">
-                    	</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-						
-						</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-					</div>
-				</div>		
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid features" id="22jan1">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center features-text">22 janvier</h2>
-				<h5 class="text-center features-text">Par Jeffrey</h5>
-				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
-					<div class="col-md-10 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box" style="text-align: justify;">
-                    	</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-						
-						</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-					</div>
-				</div>			
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid work" id="25jan1" style="padding-top:50px;padding-bottom:60px;">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center features-text">25 janvier</h2>
-				<h5 class="text-center features-text">Par Jeffrey</h5>
-				<div class="col-md-70 col-sm-12 col-xs-12 icon-box">
-					<div class="col-md-9 col-md-offset-1 col-sm-10 col-xs-12 icon-text-box">
-                    	</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
-						</br></br><p>texte</p>
-						<p>texte</p>
-						
-						</br><h4>Titre</h4>
-						<p>texte</p>
-						<img src="images/billets/22jan1.jpg" style="width:900px;height:700px;">
+						<img src="images/billets/03fev3.jpg" style="width:900px;height:700px;">
 						</br></br><p>texte</p>
 						<p>texte</p>
 					</div>
